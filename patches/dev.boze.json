@@ -50,7 +50,7 @@
 	      "url": "https://repo1.maven.org/maven2/"
 	    },
 		{
-			"name": "dev.boze:boze-loader-beta:0.0.18",
+			"name": "dev.boze:boze-loader:0.0.18",
 			"url": "https://maven.boze.dev/releases/"
 		},
 		{
