@@ -70,7 +70,7 @@ hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
 waypointsBottom:false
-minimapShape:1
+minimapShape:0
 lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
@@ -78,8 +78,8 @@ lightOverlayColor:13
 uiScale:0
 bossHealthPushBox:1
 potionEffectPushBox:1
-minimapFrame:1
-minimapFrameColor:8
+minimapFrame:0
+minimapFrameColor:9
 compassColor:9
 northCompassColor:-1
 displayMultipleWaypointInfo:1
@@ -130,7 +130,7 @@ interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false
-interface:gui.xaero_minimap:124:-22:false:false:true:false
+interface:gui.xaero_minimap:0:0:false:false:false:false
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints
 [XP] Show Render Distance:false
 [XP] Show Render Distance WorldMap:false

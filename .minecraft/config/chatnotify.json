@@ -1,26 +1,37 @@
 {
-  "version": 2,
+  "version": 1,
   "mixinEarly": false,
-  "checkOwnMessages": true,
   "debugShowKey": false,
+  "checkOwnMessages": true,
   "soundSource": "PLAYERS",
+  "allowRegex": false,
+  "defaultColor": 16761856,
+  "defaultSound": {
+    "version": 1,
+    "enabled": true,
+    "id": "block.note_block.bell",
+    "volume": 1.0,
+    "pitch": 1.0
+  },
   "prefixes": [
     "/shout",
     "!"
   ],
   "notifications": [
     {
+      "version": 1,
       "enabled": true,
-      "allowRegex": false,
       "exclusionEnabled": false,
       "responseEnabled": false,
       "sound": {
+        "version": 1,
         "enabled": true,
         "id": "block.note_block.bell",
         "volume": 1.0,
         "pitch": 1.0
       },
       "textStyle": {
+        "version": 1,
         "doColor": true,
         "color": 16761856,
         "bold": {
@@ -41,14 +52,16 @@
       },
       "triggers": [
         {
-          "string": "Profile name",
+          "version": 1,
           "enabled": true,
+          "string": "Profile name",
           "isKey": false,
           "isRegex": false
         },
         {
-          "string": "Display name",
+          "version": 1,
           "enabled": true,
+          "string": "Display name",
           "isKey": false,
           "isRegex": false
         }

@@ -6,6 +6,7 @@
   "fake_ban": false,
   "verbose": false,
   "signing_mode": "NO_KEY",
+  "onDemandWarning": "IF_TOAST_NOT_SENT",
   "chat_indicator": {
     "hide_red": true,
     "hide_yellow": false
